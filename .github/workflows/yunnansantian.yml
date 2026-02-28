@@ -2,24 +2,24 @@ name: yunnansantian
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 5/6 * * *'
-jobs:  # 25525
+    - cron: '22 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yunnansantian
         env:
-          jya823: ${{ secrets.jya823 }}
+          yqxsw7: ${{ secrets.yqxsw7 }}
         run: |
-          echo $jya823 | jq -r .v385 | /bin/bash
-          echo $ngyfv25833 | jq -r .lrbn8 | /bin/bash
-          echo $abl18557 | jq -r .dvto1127 | /bin/bash
-          echo $cbsuw71 | jq -r .g92776 | /bin/bash
-          echo $pbmr74 | jq -r .kucwe6209 | /bin/bash
-          echo $b3479 | jq -r .xtffx89 | /bin/bash
-          echo $cpzjw8 | jq -r .c90355 | /bin/bash
-          echo $j45878 | jq -r .fbj389 | /bin/bash
-          echo $fv7258 | jq -r .ino0 | /bin/bash
+          echo $yqxsw7 | jq -r .b40525 | /bin/bash
+          echo $a47255 | jq -r .bmqzb34 | /bin/bash
+          echo $qf3 | jq -r .z3 | /bin/bash
+          echo $simn44069 | jq -r .qilul8 | /bin/bash
+          echo $gqfsk805 | jq -r .s402 | /bin/bash
+          echo $wf2 | jq -r .w332 | /bin/bash
+          echo $vmazs56638 | jq -r .pklc8 | /bin/bash
+          echo $as237 | jq -r .hcp7 | /bin/bash
+          echo $lij3 | jq -r .jxi2311 | /bin/bash
 
